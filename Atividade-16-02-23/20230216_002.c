@@ -31,8 +31,12 @@ void interseccao(int c1[MAX], int c2[MAX])
             if (c1[i] == c2[j])
             {  
                 contador++; // Acrescenta um a cada intersecção
+<<<<<<< HEAD
                 C[contador] = c1[i]; // Armazena a intersecção no vetor C
                 break;// O break para evitar elementos repetidos
+=======
+                C[contador] = c1[i]; // Armazena a intersecção no vetor C 
+>>>>>>> 0c555b6fd95f46bdd9b23e5de8f68bb720196cfc
             } 
         }
     }
@@ -97,7 +101,12 @@ int main()
                 printf("Digite a qnt. de elementos do 1o conjunto: ");
                 scanf("%d", &B[0]);
             }
+<<<<<<< HEAD
         }   
+=======
+        }
+    }   
+>>>>>>> 0c555b6fd95f46bdd9b23e5de8f68bb720196cfc
         int temp[MAX]; // Inicializando um vetor temporário para armazenar os demais conjuntos
 
         // Lendo os elementos dos conjuntos no vetor B, e depois no vetor 'temp'
@@ -109,8 +118,11 @@ int main()
         }
         temp[0] = B[0]; // Lendo o tamanho do vetor B no indíce 0 do vetor 'temp'
         interseccao(A, temp); // Fazendo a intersecção entre os conjuntos A e 'temp'
+<<<<<<< HEAD
     
     }
+=======
+>>>>>>> 0c555b6fd95f46bdd9b23e5de8f68bb720196cfc
 
     // Imprimindo a intersecção na tela com o vetor C
     printf("\nConjunto Interseccao: \n");
